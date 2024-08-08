@@ -1,0 +1,121 @@
+DEBUG job_tests.cpp:102: ----- RUNNING: ./job_tests
+DEBUG job_tests.cpp:96: 
+----- test_account
+DEBUG job_tests.cpp:109: running test_popen
+
+DEBUG job_tests.cpp:77: log_lines.size(): 59
+DEBUG job_tests.cpp:78: output_lines.size(): 59
+[ERROR] (job_tests.cpp:83: errno: None) lines are different
+
+DEBUG job_tests.cpp:102: ----- RUNNING: ./job_tests
+DEBUG job_tests.cpp:96: 
+----- test_account
+DEBUG job_tests.cpp:109: running test_popen
+
+bash: line 1: ../theJobOfYourDreams: No such file or directory
+DEBUG job_tests.cpp:77: log_lines.size(): 59
+DEBUG job_tests.cpp:78: output_lines.size(): 0
+[ERROR] (job_tests.cpp:79: errno: None) line count is different
+
+DEBUG job_tests.cpp:101: ----- RUNNING: ./job_tests
+DEBUG job_tests.cpp:95: 
+----- test_account
+DEBUG job_tests.cpp:108: running test_popen
+
+bash: line 1: ../theJobOfYourDreams: No such file or directory
+File not found: tests/19920104_091532.log
+DEBUG job_tests.cpp:101: ----- RUNNING: ./job_tests
+DEBUG job_tests.cpp:95: 
+----- test_account
+DEBUG job_tests.cpp:108: running test_popen
+
+bash: line 1: theJobOfYourDreams: command not found
+File not found: tests/19920104_091532.log
+DEBUG job_tests.cpp:101: ----- RUNNING: ./job_tests
+DEBUG job_tests.cpp:95: 
+----- test_account
+DEBUG job_tests.cpp:108: running test_popen
+
+bash: line 1: ./theJobOfYourDreams: No such file or directory
+File not found: tests/19920104_091532.log
+DEBUG job_tests.cpp:101: ----- RUNNING: ./job_tests
+DEBUG job_tests.cpp:95: 
+----- test_account
+DEBUG job_tests.cpp:108: running test_popen
+
+bash: line 1: ./theJobOfYourDreams: No such file or directory
+DEBUG job_tests.cpp:76: log_lines.size(): 59
+DEBUG job_tests.cpp:77: output_lines.size(): 0
+[ERROR] (job_tests.cpp:78: errno: None) line count is different
+
+DEBUG job_tests.cpp:101: ----- RUNNING: ./job_tests
+DEBUG job_tests.cpp:95: 
+----- test_account
+DEBUG job_tests.cpp:108: running test_popen
+
+bash: line 1: ../theJobOfYourDreams: No such file or directory
+DEBUG job_tests.cpp:76: log_lines.size(): 59
+DEBUG job_tests.cpp:77: output_lines.size(): 0
+[ERROR] (job_tests.cpp:78: errno: None) line count is different
+
+DEBUG job_tests.cpp:101: ----- RUNNING: ./job_tests
+DEBUG job_tests.cpp:95: 
+----- test_account
+DEBUG job_tests.cpp:108: running test_popen
+
+DEBUG job_tests.cpp:76: log_lines.size(): 59
+DEBUG job_tests.cpp:77: output_lines.size(): 59
+[ERROR] (job_tests.cpp:82: errno: None) lines are different
+
+DEBUG job_tests.cpp:105: ----- RUNNING: ./job_tests
+DEBUG job_tests.cpp:99: 
+----- test_account
+DEBUG job_tests.cpp:112: running test_popen
+
+DEBUG job_tests.cpp:80: log_lines.size(): 59
+DEBUG job_tests.cpp:81: output_lines.size(): 59
+[ERROR] (job_tests.cpp:86: errno: None) lines are different
+
+DEBUG job_tests.cpp:110: ----- RUNNING: ./job_tests
+DEBUG job_tests.cpp:104: 
+----- test_account
+DEBUG job_tests.cpp:117: running test_popen
+
+DEBUG job_tests.cpp:80: log_lines.size(): 59
+DEBUG job_tests.cpp:81: output_lines.size(): 59
+DEBUG job_tests.cpp:87: log_lines[8]: [19920104_091532] accounts:8;total:20049;deposits:0;withdrawals:0
+DEBUG job_tests.cpp:88: output_lines[8]: [20240802_104545] accounts:8;total:20049;deposits;0;withdrawals:0
+[ERROR] (job_tests.cpp:91: errno: None) lines are different
+
+DEBUG job_tests.cpp:110: ----- RUNNING: ./job_tests
+DEBUG job_tests.cpp:104: 
+----- test_account
+DEBUG job_tests.cpp:117: running test_popen
+
+DEBUG job_tests.cpp:80: log_lines.size(): 59
+DEBUG job_tests.cpp:81: output_lines.size(): 59
+DEBUG job_tests.cpp:87: log_lines[8]: [19920104_091532] accounts:8;total:20049;deposits:0;withdrawals:0
+DEBUG job_tests.cpp:88: output_lines[8]: [20240802_104646] accounts:8;total:20049;deposits;0;withdrawals:0
+[ERROR] (job_tests.cpp:91: errno: None) lines are different
+
+DEBUG job_tests.cpp:110: ----- RUNNING: ./job_tests
+DEBUG job_tests.cpp:104: 
+----- test_account
+DEBUG job_tests.cpp:117: running test_popen
+
+DEBUG job_tests.cpp:80: log_lines.size(): 59
+DEBUG job_tests.cpp:81: output_lines.size(): 59
+DEBUG job_tests.cpp:110: ----- RUNNING: ./job_tests
+DEBUG job_tests.cpp:104: 
+----- test_account
+DEBUG job_tests.cpp:117: running test_popen
+
+DEBUG job_tests.cpp:80: log_lines.size(): 59
+DEBUG job_tests.cpp:81: output_lines.size(): 59
+DEBUG job_tests.cpp:110: ----- RUNNING: ./job_tests
+DEBUG job_tests.cpp:104: 
+----- test_account
+DEBUG job_tests.cpp:117: running test_popen
+
+DEBUG job_tests.cpp:80: log_lines.size(): 59
+DEBUG job_tests.cpp:81: output_lines.size(): 59
