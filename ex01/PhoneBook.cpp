@@ -6,7 +6,7 @@
 /*   By: lbrusa <lbrusa@student.42berlin.de>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/03 16:59:31 by lbrusa            #+#    #+#             */
-/*   Updated: 2024/08/08 14:35:29 by lbrusa           ###   ########.fr       */
+/*   Updated: 2024/08/19 21:05:16 by lbrusa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -118,10 +118,10 @@ void PhoneBook::searchContact() {
 		while (1) {
 			std::string index;
 			std::cout << "Enter index to display: ";
-			if (!(std::cin >> index)) {
+			if (!(std::getline(std::cin, index))) {
 				if (std::cin.eof()) {
 					std::cout << "Exiting..." << std::endl;
-					std::exit(0);
+					exit(0);
 				}
 			}
 			bool isDigit = true;
@@ -140,7 +140,6 @@ void PhoneBook::searchContact() {
 				} else {
 					continue;
 				}
-				return;
 			}
 		}
 	}	
